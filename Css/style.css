@@ -1,0 +1,117 @@
+body
+{
+    background-color: #24353f;
+}
+
+.sign-up-box
+{
+    background-color: #24353f;
+
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    width: 80%;
+
+    justify-content: center;
+
+    justify-items: center;
+
+}
+
+.sign-up-box .form-control
+{
+    background-color: #24353f;
+
+    width: 80%;
+
+    margin: auto;
+}
+
+.sign-up-box .form-control::placeholder
+{
+    color:rgb(182,182,182);
+}
+
+.signup-title
+{
+    color: #17a2b8;
+
+    display: flex;
+
+
+}
+
+
+.form-control:focus {
+    color:white;
+    background-color:transparent;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+
+
+button
+{
+border: 2px solid rgb(23,162,184);
+color: rgb(23,162,184);
+background-color: transparent;
+width: 100%;
+padding: 5px 0px;
+border-radius: 5px;
+transition: 0.3s all;
+}
+button:hover
+{
+    background-color:rgb(23,162,184);
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    transition: all 0.2s;
+
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+.alert{
+
+    width: 80%;
+}
+
+
+
+.bg-body-tertiary 
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+
+.welcome-content
+{
+    
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.welcome-content #welcome1
+{
+    /* align-self: center; */
+}
+
+.welc
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

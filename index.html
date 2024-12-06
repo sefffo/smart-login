@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Css/fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="./Css/fontawesome-free-6.6.0-web/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./Css/style.css">
+
+  <title>LogIn</title>
+</head>
+<body>
+  
+
+
+
+  <div class="container py-5 d-flex justify-content-center align-items-center">
+
+
+    <div class="sign-up-box container py-5">
+      <h1 class="fw-bolder fs-1 text-center signup-title">Smart Login System</h1>
+
+      <input  id="logEmail" class="form-control text-white my-4"  placeholder="Enter Your E-mail">
+
+      <input type="password" id="logPass" class="form-control  text-white my-4"   placeholder="Enter Your Passowrd">
+
+
+      <p class="text-danger d-none" id="logAlert">
+        All Inputs requierd
+      </p>
+
+      <p id="log2war" class="text-danger d-none">
+
+
+      </p>
+
+
+      <button  onclick="login()" class="m-auto my-3 px-5" id="loginBtn">Login</button>
+
+      <p class="log text-white" >
+        Don't Have an Account? 
+        <a class="text-white" href="signUp.html">Sign up</a>
+      </p>
+
+    </div>
+
+
+  </div>
+  
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
